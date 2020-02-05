@@ -1,21 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main -  Prints the size of variables
+ * printf - Print a variable or messege
+ * Return: 0
  */
 int main(void)
 {
-
-char ch;
-int in;
-long int li;
-float fl;
-
- printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(ch));
- printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(in));
- printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(li)); 	
- printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(fl));
-return (0);
-
+  printf("Size of a char: %d byte(s)"sizeof(char));
+  printf("Size of an int: %d byte(s)"sizeof(int));
+  printf("Size of a long int: %d byte(s)"sizeof(long int));
+  printf("Size of a long long int: %d byte(s)"sizeof(long long int));
+  printf("Size of a float: %d byte(s)"sizeof(float));
+  return(0);
 }
