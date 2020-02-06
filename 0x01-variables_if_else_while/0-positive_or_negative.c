@@ -2,11 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - prints numbers positive or negative 
+* main - prints numbers positive or negative
+* 
 */
+
 int main(void)
 {
 int n;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
@@ -24,6 +27,5 @@ else
 {
 printf("%d is negative\n", n);
 }
-
 return (0);
 }
